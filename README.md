@@ -29,9 +29,11 @@ The Flask directory contains the Flask application designed to consume the FastA
 #### StudentMentalhealth.csv: The dataset used for training the machine learning model.
 ## How to Run:
 ### FastAPI:
-Navigate to the FastAPI directory.
+Navigate to the FastAPI directory. \
 Build the Docker image: docker build -t fastapi-app .
+
 Run the Docker container: docker run -p 8000:8000 fastapi-app
+
 ### Flask:
 Navigate to the Flask directory.
 Build the Docker image: docker build -t flask-app .
