@@ -27,24 +27,30 @@ The Flask directory contains the Flask application designed to consume the FastA
 #### requirements.txt: A text file listing the required Python packages.
 #### sklearn_conf_matrix.png: An image file showing the confusion matrix generated during model evaluation.
 #### StudentMentalhealth.csv: The dataset used for training the machine learning model.
+
+
 ## How to Run:
+
 ### FastAPI:
 Navigate to the FastAPI directory. \
-Build the Docker image: docker build -t fastapi-app .
-
+Build the Docker image: docker build -t fastapi-app . \
 Run the Docker container: docker run -p 8000:8000 fastapi-app
 
 ### Flask:
-Navigate to the Flask directory.
-Build the Docker image: docker build -t flask-app .
-Run the Docker container: docker run -p 8080:8080 flask-app
+Navigate to the Flask directory. \
+Build the Docker image: docker build -t flask-app . \
+Run the Docker container: docker run -p 8080:8080 flask-app \
+
 ### MLflow Experiment:
 The MLflow experiment details, including model training runs, metrics, and artifacts, are documented in the MLFlow.ipynb Jupyter notebook.
+
 ### Postman:
 The APIs can be tested using Postman. Ensure the correct endpoints are used for both FastAPI and Flask applications.
-Additional Notes:
-Ensure Docker is installed for convenient packaging and deployment.
-Experiment with different endpoints and explore the MLflow UI for detailed model tracking.
+
+## Additional Notes:
+Ensure Docker is installed for convenient packaging and deployment. \
+Experiment with different endpoints and explore the MLflow UI for detailed model tracking. \
+
 ## Acknowledgments:
 MLflow Documentation: https://www.mlflow.org/
 FastAPI Documentation: https://fastapi.tiangolo.com/
