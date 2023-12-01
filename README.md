@@ -52,6 +52,6 @@ Ensure Docker is installed for convenient packaging and deployment. \
 Experiment with different endpoints and explore the MLflow UI for detailed model tracking. \
 
 ## Acknowledgments:
-MLflow Documentation: https://www.mlflow.org/
-FastAPI Documentation: https://fastapi.tiangolo.com/
-Flask Documentation: https://flask.palletsprojects.com/
+MLflow Documentation: https://www.mlflow.org/ \
+FastAPI Documentation: https://fastapi.tiangolo.com/ \
+Flask Documentation: https://flask.palletsprojects.com/ \
